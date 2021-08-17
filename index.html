@@ -1,43 +1,76 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
     <head>
-        <title>Kingloo</title>
-        <meta charset="utf-8">
+        <meta name="charset" content="utf-8" charset="utf-8">
+        <meta name="content-type" content="text/html; charset=utf-8" content-type="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Index of Kingloo's public GitHub repositories.">
-        <meta name="og:locale" content="en_GB">
+        <meta name="author" content="Kingloo">
         <meta name="og:title" content="Kingloo">
+        <meta name="og:locale" content="en_GB">
         <meta name="og:description" content="Index of Kingloo's public GitHub repositories.">
         <meta name="og:url" content="https://kingloo.github.io/">
         <link rel="canonical" href="https://kingloo.github.io/">
+        <title>Kingloo</title>
         <style>
             html {
-                font-size: 13px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15pt;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
+
             body {
-                margin: 3rem;
+                background-color: lightgray;
+                margin: 1rem;
             }
-            section {
-                margin: 3rem 1rem;
+
+            header { }
+
+            main {
+                font-size: 11pt;
             }
+
+            footer {
+                text-align: right;
+                margin-top: 1.2rem;
+                margin-bottom: 1.2rem;
+            }
+
+            article {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
             h1 {
-                font-size: 2.5rem;
+                font-size: 1.5em;
                 text-align: center;
             }
+
             h2 {
-                margin-left: 1%;
+                font-size: 1.2em;
             }
-            ul {
-                margin: 1.2rem 0rem;
+
+            .repo {
+                background-color: white;
+                flex-basis: 500px;
+                padding: 1.5em;
+                margin: 0.5em;
             }
-            li {
-                display: inline;
+
+            .tags {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .tag {
                 background-color: lightgray;
-                margin: 0.3rem 0.25rem;
-                padding: 0.4rem 0.9rem;
+                padding: 0.6em 1.0em;
+                margin-right: 0.75em;
+                font-weight: bolder;
+                font-size: 10pt;
             }
         </style>
     </head>
+
     <body>
         <header>
             <h1>
@@ -46,84 +79,86 @@
         </header>
         <main>
             <article>
-                <section>
+                <section class="repo">
                     <h2>
                         <a href="https://github.com/Kingloo/Storm/" target="_blank">Storm</a>
                     </h2>
                     <p>A programme that notifies you when live streams begin.</p>
-                    <p>Supports various services, including Twitch, YouTube, Mixlr and Chaturbate.</p>
-                    <ul>
-                        <li>C#</li>
-                        <li>WPF</li>
-                        <li>.Net Core</li>
-                    </ul>
+                    <p>Supports various services, including <strong>Twitch</strong>, <strong>YouTube</strong>, <strong>Mixlr</strong> and <strong>Chaturbate</strong>.</p>
+                    <section class="tags">
+                        <p class="tag">C#</p>
+                        <p class="tag">WPF</p>
+                        <p class="tag">.NET</p>
+                    </section>
                 </section>
-                <section>
+                <section class="repo">
                     <h2>
                         <a href="https://github.com/Kingloo/Pingy/" target="_blank">Pingy</a>
                     </h2>
                     <p>Simple GUI ping programme.</p>
-                    <ul>
-                        <li>C#</li>
-                        <li>WPF</li>
-                        <li>.Net Core</li>
-                    </ul>
+                    <section class="tags">
+                        <p class="tag">C#</p>
+                        <p class="tag">WPF</p>
+                        <p class="tag">.NET</p>
+                    </section>
                 </section>
-                <section>
+                <section class="repo">
                     <h2>
                         <a href="https://github.com/Kingloo/Rdr/" target="_blank">Rdr</a>
                     </h2>
-                    <p>RSS reader.</p>
-                    <ul>
-                        <li>C#</li>
-                        <li>.Net Core</li>
-                    </ul>
+                    <p>RSS reader. RIP Google Reader.</p>
+                    <section class="tags">
+                        <p class="tag">C#</p>
+                        <p class="tag">WPF</p>
+                        <p class="tag">.NET</p>
+                    </section>
                 </section>
-                <section>
+                <section class="repo">
                     <h2>
                         <a href="https://github.com/Kingloo/GB-Live/" target="_blank">GB Live</a>
                     </h2>
-                    <p>Displays ongoing and upcoming streams and shows from <a href="https://www.giantbomb.com/" target="_blank">GiantBomb.com</a>.</p>
-                    <ul>
-                        <li>C#</li>
-                        <li>WPF</li>
-                        <li>.Net Core</li>
-                    </ul>
+                    <p>Shows what is coming up on <a href="https://www.giantbomb.com/" target="_blank">Giant Bomb</a>.</p>
+                    <section class="tags">
+                        <p class="tag">C#</p>
+                        <p class="tag">WPF</p>
+                        <p class="tag">.NET</p>
+                    </section>
                 </section>
-                <section>
+                <section class="repo">
                     <h2>
                         <a href="https://github.com/Kingloo/Forzoid/" target="_blank">Forzoid</a>
                     </h2>
                     <p>Library for consuming the Data Output of the Forza video games.</p>
                     <p>Supports <strong>Forza Motorsport 7</strong> and <strong>Forza Horizon 4.</strong></p>
-                    <ul>
-                        <li>C#</li>
-                        <li>.Net Core</li>
-                    </ul>
+                    <section class="tags">
+                        <p class="tag">C#</p>
+                        <p class="tag">.NET</p>
+                    </section>
                 </section>
-                <section>
+                <section class="repo">
                     <h2>
                         <a href="https://github.com/Kingloo/Spiffy/" target="_blank">Spiffy</a>
                     </h2>
                     <p>What is my IP address? A C# library and a Rust utility.</p>
-                    <ul>
-                        <li>C#</li>
-                        <li>.Net Core</li>
-                        <li>Rust</li>
-                    </ul>
+                    <section class="tags">
+                        <p class="tag">Rust</p>
+                        <p class="tag">C#</p>
+                        <p class="tag">IPv4</p>
+                        <p class="tag">IPv6</p>
+                    </section>
                 </section>
-                <section>
+                <section class="repo">
                     <h2>
                         <a href="https://github.com/Kingloo/Common/" target="_blank">Common</a>
                     </h2>
                     <p>Collection of useful code files.</p>
-                    <ul>
-                        <li>C#</li>
-                        <li>F#</li>
-                        <li>JavaScript</li>
-                        <li>PowerShell</li>
-                        <li>Python</li>
-                    </ul>
+                    <section class="tags">
+                        <p class="tag">C#</p>
+                        <p class="tag">F#</p>
+                        <p class="tag">JavaScript</p>
+                        <p class="tag">PowerShell</p>
+                        <p class="tag">Python</p>
+                    </section>
                 </section>
             </article>
         </main>
